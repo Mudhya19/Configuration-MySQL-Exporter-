@@ -32,7 +32,7 @@ Access MySQL as root:
 /home/slemp/server/mysql/bin/mysql -u root -p
 ```
 
-Then execute the following SQL commands:
+Then execute the following SQL commands IPv6 host ::1 or IPv4 127.0.0.1:
 
 ```sql
 CREATE USER 'exporter'@'::1' IDENTIFIED BY 'password_exporter';
